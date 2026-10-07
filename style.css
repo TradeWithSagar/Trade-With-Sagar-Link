@@ -1,0 +1,497 @@
+/* =========================================
+   TRADE WITH SAGAR
+   LINK-IN-BIO WEBSITE
+========================================= */
+
+
+/* ---------- RESET ---------- */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* ---------- BODY ---------- */
+
+body {
+
+    min-height: 100vh;
+
+    font-family:
+        Inter,
+        Arial,
+        Helvetica,
+        sans-serif;
+
+    color: #ffffff;
+
+    background:
+
+        radial-gradient(
+            circle at 50% -10%,
+            #263241 0%,
+            #111820 35%,
+            #070b10 75%,
+            #040609 100%
+        );
+
+    padding: 35px 15px 30px;
+
+}
+
+
+/* ---------- MAIN CONTAINER ---------- */
+
+.container {
+
+    width: 100%;
+
+    max-width: 520px;
+
+    margin: auto;
+
+}
+
+
+/* ---------- PROFILE ---------- */
+
+.profile {
+
+    text-align: center;
+
+    margin-bottom: 30px;
+
+}
+
+
+/* ---------- LOGO ---------- */
+
+.logo {
+    width: 105px;
+    height: 105px;
+
+    margin: 0 auto 20px;
+
+    border-radius: 50%;
+
+    overflow: hidden;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border: 2px solid rgba(255,255,255,0.2);
+
+    box-shadow:
+        0 15px 40px rgba(0,0,0,0.45);
+}
+
+.logo img {
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+
+    display: block;
+}
+
+
+/* ---------- LOGO TEXT ---------- */
+
+.logo span {
+
+    font-size: 25px;
+
+    font-weight: 900;
+
+    letter-spacing: 2px;
+
+}
+
+
+/* ---------- TITLE ---------- */
+
+.profile h1 {
+
+    font-size: 27px;
+
+    font-weight: 800;
+
+    letter-spacing: 2px;
+
+    margin-bottom: 8px;
+
+}
+
+
+/* ---------- TAGLINE ---------- */
+
+.tagline {
+
+    font-size: 14px;
+
+    color: #b9c3cf;
+
+    margin-bottom: 10px;
+
+}
+
+
+/* ---------- DESCRIPTION ---------- */
+
+.description {
+
+    max-width: 430px;
+
+    margin: auto;
+
+    font-size: 13px;
+
+    line-height: 1.6;
+
+    color: #858f9b;
+
+}
+
+
+/* ---------- LINKS ---------- */
+
+.links {
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 14px;
+
+}
+
+
+/* ---------- LINK BUTTON ---------- */
+
+.link-button {
+
+    position: relative;
+
+    min-height: 64px;
+
+    width: 100%;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    text-decoration: none;
+
+    color: #ffffff;
+
+    background:
+
+        rgba(255,255,255,0.055);
+
+    border:
+
+        1px solid
+        rgba(255,255,255,0.11);
+
+    border-radius: 18px;
+
+    font-size: 16px;
+
+    font-weight: 600;
+
+    letter-spacing: 0.2px;
+
+    backdrop-filter: blur(15px);
+
+    -webkit-backdrop-filter: blur(15px);
+
+    box-shadow:
+
+        0 8px 25px
+        rgba(0,0,0,0.15);
+
+    transition:
+
+        transform 0.25s ease,
+
+        background 0.25s ease,
+
+        border-color 0.25s ease,
+
+        box-shadow 0.25s ease;
+
+}
+
+
+/* ---------- HOVER ---------- */
+
+.link-button:hover {
+
+    transform:
+
+        translateY(-3px);
+
+    background:
+
+        rgba(255,255,255,0.10);
+
+    border-color:
+
+        rgba(255,255,255,0.22);
+
+    box-shadow:
+
+        0 12px 30px
+        rgba(0,0,0,0.30);
+
+}
+
+
+/* ---------- CLICK ---------- */
+
+.link-button:active {
+
+    transform:
+
+        scale(0.98);
+
+}
+
+
+/* ---------- ICON ---------- */
+
+.icon {
+
+    position: absolute;
+
+    left: 21px;
+
+    width: 30px;
+
+    height: 30px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    font-size: 19px;
+
+    font-weight: 800;
+
+}
+
+
+/* ---------- ARROW ---------- */
+
+.arrow {
+
+    position: absolute;
+
+    right: 20px;
+
+    font-size: 18px;
+
+    color: #727d89;
+
+    transition:
+
+        transform 0.25s ease,
+
+        color 0.25s ease;
+
+}
+
+
+.link-button:hover .arrow {
+
+    transform:
+
+        translate(3px,-3px);
+
+    color: #ffffff;
+
+}
+
+
+/* ---------- SECTION TITLE ---------- */
+
+.section-title {
+
+    margin:
+
+        32px 0 13px;
+
+    text-align: left;
+
+}
+
+
+.section-title span {
+
+    font-size: 11px;
+
+    font-weight: 700;
+
+    letter-spacing: 1.8px;
+
+    color: #687381;
+
+}
+
+
+/* ---------- SOCIAL ICONS ---------- */
+
+.youtube {
+    color: #ff4444;
+}
+
+.instagram {
+    color: #ff5b91;
+}
+
+.whatsapp {
+    color: #36d77a;
+}
+
+.telegram {
+    color: #37aee2;
+}
+
+.facebook {
+    color: #4f8cff;
+}
+
+.x {
+    color: #ffffff;
+}
+
+.snapchat {
+    color: #ffe812;
+}
+
+.website {
+    color: #a9b8ff;
+}
+
+.dhan {
+    color: #36d399;
+}
+
+.zerodha {
+    color: #ff6337;
+}
+
+.linkedin {
+    color: #4da3ff;
+}
+
+
+/* ---------- FOOTER ---------- */
+
+footer {
+
+    text-align: center;
+
+    margin-top: 38px;
+
+    padding-bottom: 15px;
+
+    color: #59636f;
+
+    font-size: 11px;
+
+    line-height: 1.8;
+
+}
+
+
+/* ---------- MOBILE ---------- */
+
+@media (max-width: 480px) {
+
+    .logo {
+        width: 90px;
+        height: 90px;
+    }
+
+}
+
+
+    .profile {
+
+        margin-bottom: 25px;
+
+    }
+
+
+    .logo {
+
+        width: 90px;
+
+        height: 90px;
+
+        margin-bottom: 17px;
+
+    }
+
+
+    .logo span {
+
+        font-size: 21px;
+
+    }
+
+
+    .profile h1 {
+
+        font-size: 22px;
+
+        letter-spacing: 1.5px;
+
+    }
+
+
+    .tagline {
+
+        font-size: 13px;
+
+    }
+
+
+    .description {
+
+        font-size: 12px;
+
+    }
+
+
+    .link-button {
+
+        min-height: 59px;
+
+        border-radius: 16px;
+
+        font-size: 15px;
+
+    }
+
+
+    .icon {
+
+        left: 18px;
+
+    }
+
+
+    .arrow {
+
+        right: 17px;
+
+    }
